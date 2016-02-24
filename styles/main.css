@@ -1,0 +1,121 @@
+html, body {
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'PT Sans Narrow', serif;
+}
+
+div.sdbr {
+    border-right: 2px black solid;
+    margin: 0;
+    background-color: #f5f5f5;
+    height: 100%;
+}
+
+div.sdbr h2, div.sdbr a,  div.sdbr p {
+    margin-bottom: 0;
+    margin-top: 5.5%; 
+    font-family: 'PT Sans Narrow', serif;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 0;
+}
+
+div.content {
+    padding: 0;
+    margin: 0;
+}
+
+img.border {
+    display: block;
+    margin: auto;
+    max-height: 1%;
+    max-width: 40%;
+    
+}
+
+div.content a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+div.content p, div.content h1, div.content h6 {
+    padding: 0;
+    margin: 0 8% 1% 8%; 
+}
+
+div.content p, div.content ul {
+    font-size: 1.1em;
+}
+
+div.content img.media {
+    max-height: 10%;
+    float: center;
+    max-width: 10%;
+    padding: 0;
+    border: 2px black solid;
+}
+
+div.content img.media:hover {
+    border: 3px solid black;
+}
+
+div.content img.first {
+    margin: 1% 0.5% 2% 8%;
+}
+
+div.content img.second {
+    margin: 1% 0.5% 2% 0.5%;
+}
+
+div.content img.third {
+    margin: 1% 10% 2% 0.5% 
+}
+
+div.content ul {
+    margin-left: 12%;
+    margin-right: 8%;
+}
+
+img.border {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+div.content h1 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+div.content h6 {
+    font-style: italic;
+}
+
+div.sdbr p {
+    margin-bottom: 3%;
+    margin-top: 3%;
+}       
+
+.logos {
+    padding: 0;
+    float: center;
+    max-width: 20%;
+    max-height: 20%;
+    margin: 2% 40%;
+}
+
+.logos.mug {
+    max-width: 40%;
+    max-height: 40%;
+    margin: 5% 30% 3% 30%;
+}
+
+h2:hover, p.links:hover, div.content a:hover {
+    font-style: italic;
+}
+
+
+    
+
